@@ -1,0 +1,138 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    height: 343px;
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#hero-city {
+    background-color: #1D3557;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#hero-title {
+    font-weight: 700;
+    font-size: 19px;
+    width: 300px;
+    background-color: #457B9D;
+    font-size: 1em;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+.activity {
+     margin: 0;
+     background-color: #F1FAEE;
+     padding: 10px 10px;
+     color: #1D3557;
+}
+
+.activity-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activity-h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.activity-p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.activity-h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D3557;
+}
+
+.activity-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.activity-div {
+    width: 198px;
+    margin: 10px 10px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: .6em;
+}
+
+
+
+/* img {
+    width: 100px;
+} */
+
+.guide {
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+}
+
+.guide-flex {
+    border: 1px solid none;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 10px;
+    background-color: #A8DADC;
+    margin: 0 auto;
+    padding: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.guide-h3 {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.guide-text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.guide-h4 {
+    font-weight: 700;
+    font-size: 16px;
+}
